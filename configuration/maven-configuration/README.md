@@ -12,7 +12,7 @@ If you want to change the config use this parameter with `mvn` command: "-Denvir
 
 ## Cons of this approach
 Everytime you need to change the properties you need to rebuild the application and set the desired environment. 
-This way, in a CI/CD environment you would have to build your `war` everytime it changes the env in a pipeline, not recomended.
+This way, in a CI/CD environment you would have to build your `war` everytime it changes the env in a pipeline, not recommended.
 
 ## Pros
 Somehow simple to achieve the desired result.
