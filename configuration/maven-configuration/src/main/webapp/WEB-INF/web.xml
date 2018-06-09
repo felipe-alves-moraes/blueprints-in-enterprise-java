@@ -1,0 +1,19 @@
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+                      http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    
+    <data-source>
+        <name>java:app/datasources/mavenConfigDS</name>
+        <class-name>${datasource.class}</class-name>
+        <server-name>${database.server}</server-name>
+        <port-number>${database.port}</port-number>
+        <database-name>${database.name}</database-name>
+        <user>${database.user}</user>
+        <password>${database.password}</password>
+        <max-pool-size>30</max-pool-size>
+        <min-pool-size>10</min-pool-size>
+    </data-source>
+    
+</web-app>
