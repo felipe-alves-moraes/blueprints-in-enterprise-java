@@ -8,7 +8,7 @@ To do this I used [maven filters](https://maven.apache.org/plugins/maven-resourc
 You can check the configuration inside the `pom.xml` file.
 
 By default maven applies the local config into the files.
-If you want to change the config use this parameter with `mvn` command: "-Denvironment=qa"
+If you want to change the config use this parameter "-Denvironment=qa" with `mvn` command.
 
 ## Cons of this approach
 Everytime you need to change the properties you need to rebuild the application and set the desired environment. 
