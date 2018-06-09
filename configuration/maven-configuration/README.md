@@ -3,7 +3,7 @@ With this approach I was setting my database config based on the environment tha
 
 I wanted to have an in memory database while developing the application and a MySQL database for QA env.
 
-To do this I used [maven filters](https://maven.apache.org/plugins/maven-resources-plugin/examples/filter.html) feature and set the config that I want at build time.
+To do this I've used [maven filters](https://maven.apache.org/plugins/maven-resources-plugin/examples/filter.html) feature and set the config that I want at build time.
 
 You can check the configuration inside the `pom.xml` file.
 
