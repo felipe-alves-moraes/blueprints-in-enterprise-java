@@ -3,7 +3,8 @@ With this approach I was setting my database config based on the environment tha
 
 I wanted to have an in memory database while developing the application and a MySQL database for QA env.
 
-To do this I've used [maven filters](https://maven.apache.org/plugins/maven-resources-plugin/examples/filter.html) feature and set the config that I want at build time.
+To do this I've used [maven filters](https://maven.apache.org/plugins/maven-resources-plugin/examples/filter.html) feature and also based my configuration in this [article](https://developer.jboss.org/wiki/HowToConfigureJavaEEApplicationToApplyDifferentSettingsinWebxmlEtcForVariousEnvironmentsByMaven?_sscc=t) . 
+This way I was able to set the config that I wanted at build time.
 
 You can check the configuration inside the `pom.xml` file.
 
