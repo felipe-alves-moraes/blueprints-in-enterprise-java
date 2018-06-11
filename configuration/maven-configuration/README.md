@@ -17,8 +17,12 @@ This way, in a CI/CD environment you would have to build your `war` everytime it
 
 It is INSECURE. As pointed in this twit: https://twitter.com/struberg/status/1005905045790044160.
 
+Not the way that Java EE applications should handle it's environment configurations. DON'T DO THIS.
+
 ## Pros
 Somehow simple to achieve the desired result.
+
+You get to know better the capabilities of Maven.
 
 # Build
 mvn clean package && docker build -t br.com.fmoraes/maven-configuration .
