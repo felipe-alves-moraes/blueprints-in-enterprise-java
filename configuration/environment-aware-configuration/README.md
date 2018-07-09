@@ -25,11 +25,11 @@ Don't need to do any magical trick in you app to handle configuration.
 CI/CD ready configuration.
 
 # Build
-mvn clean package && docker build -f ./docker/Dockerfile -t br.com.fmoraes/environment-aware-configuration .
+`mvn clean package && docker build -f ./docker/Dockerfile -t br.com.fmoraes/environment-aware-configuration .`
 
 # RUN
 
-docker rm -f environment-aware-configuration || true && docker run --env-file=./docker/local_env_properties -d -p 8080:8080 -p 4848:4848 --name environment-aware-configuration br.com.fmoraes/environment-aware-configuration
+`docker rm -f environment-aware-configuration || true && docker run --env-file=./docker/local_env_properties -d -p 8080:8080 -p 4848:4848 --name environment-aware-configuration br.com.fmoraes/environment-aware-configuration`
 
 You can also run the application using the script `buildAndRun.sh` by default it will pick the `local_env_properties` file to run docker, you can change it passing one of the following envs as argument: `dev`, `stage` and `prod`.
 
