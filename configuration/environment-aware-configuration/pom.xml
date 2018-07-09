@@ -33,7 +33,7 @@
     </dependencies>
     
     <build>
-        <finalName>envronment-aware-configuration</finalName>
+        <finalName>environment-aware-configuration</finalName>
         <plugins>
             <plugin>
                 <groupId>fish.payara.maven.plugins</groupId>

@@ -1,4 +1,4 @@
-package br.com.fmoraes.envronmentawareconfiguration.model;
+package br.com.fmoraes.environmentawareconfiguration.model;
 
 import java.io.Serializable;
 import javax.persistence.Entity;

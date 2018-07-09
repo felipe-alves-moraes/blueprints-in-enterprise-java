@@ -1,4 +1,4 @@
-package br.com.fmoraes.envronmentawareconfiguration;
+package br.com.fmoraes.environmentawareconfiguration;
 
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;

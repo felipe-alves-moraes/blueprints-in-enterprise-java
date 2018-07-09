@@ -6,7 +6,7 @@
          version="4.0">
     
     <data-source>
-        <name>java:app/datasources/envronment-aware-configurationDS</name>
+        <name>java:app/datasources/environment-aware-configurationDS</name>
         <class-name>${ENV=DATASOURCE_CLASS}</class-name>
         <url>jdbc:${ENV=DB_ENGINE}://${ENV=DB_HOST}:${ENV=DB_PORT}/${ENV=DB_NAME}</url>
         <user>${ENV=DB_USER}</user>

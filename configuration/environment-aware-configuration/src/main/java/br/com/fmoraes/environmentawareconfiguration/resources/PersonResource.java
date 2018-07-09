@@ -1,6 +1,6 @@
-package br.com.fmoraes.envronmentawareconfiguration.resources;
+package br.com.fmoraes.environmentawareconfiguration.resources;
 
-import br.com.fmoraes.envronmentawareconfiguration.model.Person;
+import br.com.fmoraes.environmentawareconfiguration.model.Person;
 import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
