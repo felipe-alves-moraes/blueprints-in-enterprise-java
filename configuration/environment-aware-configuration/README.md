@@ -1,4 +1,7 @@
 # Environment Aware
+
+This project was made using this archetype that I created: [javaee8-archetype](https://github.com/felipe-alves-moraes/javaee8-archetype)
+
 With this approach I set my datasource configuration based on the environment that I was building my project.
 
 The idea here is that you application should only have references of the environment around it through known variables.
