@@ -15,7 +15,7 @@ If you want to change the config use this parameter "-Denvironment=qa" with `mvn
 Everytime you need to change the properties you need to rebuild the application and set the desired environment. 
 This way, in a CI/CD environment you would have to build your `war` everytime it changes the env in a pipeline, not recommended.
 
-It is INSECURE. As pointed in this twit: https://twitter.com/struberg/status/1005905045790044160.
+It is INSECURE. As pointed in this tweet: https://twitter.com/struberg/status/1005905045790044160.
 
 Not the way that Java EE applications should handle it's environment configurations. DON'T DO THIS.
 
