@@ -36,9 +36,9 @@ You can also run the application using the script `buildAndRun.sh` by default it
 To run it locally in you IDE you have to configure these Environment Variables:
 
 ```
-DATASOURCE_CLASS=org.apache.derby.jdbc.ClientDriver
+DATASOURCE_CLASS=org.apache.derby.jdbc.EmbeddedDriver
 DB_ENGINE=derby
-DB_URL=//host.docker.internal:1527/environment-aware-configuration
+DB_URL=memory:environment-aware-configuration;create=true
 DB_USER=app
 DB_PASSWORD=app
 ```
