@@ -42,5 +42,3 @@ DB_URL=//host.docker.internal:1527/environment-aware-configuration
 DB_USER=app
 DB_PASSWORD=app
 ```
-
-OBS. You need to have a local instance of Apache Derby(Java DB) running in you local machine to this project to work, or configure any DB that you want changing the configuration files.
